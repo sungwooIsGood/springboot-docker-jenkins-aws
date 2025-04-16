@@ -146,14 +146,8 @@ http://<your-server-ip>:8080
 사정상 한대의 서버에 이것저것 설치해서 쓸 경우 8080포트는 사용하기 어렵다. 그렇기때문에 변경해주는 것이 좋다.
 
 ```bash
-(1) Jenkins Version 2.335 이전일 경우
-
+환경 설정하는 곳
 $ sudo vi /etc/default/jenkins
- 
-
-(2) Jenkins Version 2.335 이후일 경우
-
-$ sudo vi /lib/systemd/system/jenkins.service
 ```
 
 1. 아래와 같이 `HTTP_PORT` 값을 원하는 포트 번호로 변경하면 된다.
