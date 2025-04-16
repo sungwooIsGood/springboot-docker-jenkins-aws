@@ -181,3 +181,6 @@ sudo systemctl status jenkins
 - **포트, 환경 변수** 등은 → `/etc/default/jenkins` 에서 설정
 - **서비스 실행 방식 변경**은 → `sudo systemctl edit jenkins` 로 override
 - `jenkins.service` 직접 수정은 가능하지만 **권장되지 않음**
+
+---
+### ing~~
